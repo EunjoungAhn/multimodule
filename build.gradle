@@ -23,6 +23,8 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation project(':module-common') // root 모듈의 settings.gradle에 선언한 값과 일치 해야한다.
 }
 
 tasks.named('test') {

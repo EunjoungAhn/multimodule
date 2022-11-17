@@ -11,8 +11,6 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor
 public class DemoService {
-
-    private final CommonDemoService commonDemoService;
     private final MemberRepository memberRepository;
 
     public String save(){

@@ -3,7 +3,7 @@ spring:
     allow-bean-definition-overriding: true
   datasource:
     url: jdbc:mysql://localhost:3306/
-    username:
+    username: jackahn
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:

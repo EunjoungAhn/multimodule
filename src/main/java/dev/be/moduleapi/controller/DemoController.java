@@ -20,4 +20,10 @@ public class DemoController {
     public String find(){
         return demoService.find();
     }
+
+    @GetMapping("/exception")
+    public String exception(){
+        return demoService.exception();
+    }
+
 }
